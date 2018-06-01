@@ -1,0 +1,9 @@
+version: '3.4'
+version: '3.4'
+
+services:
+  netcorebackgroundjobdemo:
+    image: netcorebackgroundjobdemo
+    build:
+      context: .
+      dockerfile: NetCoreBackgroundJobDemo\Dockerfile
